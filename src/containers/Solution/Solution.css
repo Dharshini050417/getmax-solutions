@@ -1,8 +1,7 @@
-
 .Solution {
-    height: 180vh;
+    height: 100px;
     background-color: #FFF6F6;
-    padding-top: 5%;
+    padding-top: 107%;
 }
 
 .Solution h1 {
@@ -227,7 +226,7 @@
     }
     @media(max-width:450px) {
         .cont1 {
-            margin-top: -55%;
+            margin-top: 550%;
         }
     }
 }
