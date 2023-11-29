@@ -1,22 +1,20 @@
 .div1 {
+    margin-top:70vw;
     background-color: #F6F1FF;
     height: 100%;
     width: 100%;
     font-family: "Inter-Medium", Helvetica;
     padding-bottom: 5%;
 }
-
 .div2 {
     display: flex;
 }
-
 .div3 {
     margin-top: 5%;
     margin-left: 10%;
     width: 40%;
     color: #263238;
 }
-
 .div4 {
     background-color: #222938;
     margin-top: 5%;
@@ -194,7 +192,7 @@ a {
 
 @media(max-width:700px) {
     .div1 {
-        padding-top: 10%;
+        padding-top: 600%;
     }
 
     .div2,
