@@ -1,443 +1,198 @@
 
-  body{
-    background-color: #F6F1FF;
-    
-  }
+ /* Reset Box Sizing */
+.team-total,
+.team-total:before,
+.team-total:after {
+    box-sizing: border-box;
+}
+.team-total{
+  margin-top:0vw;
+  background-color:#F6F1FF ;
+}
 
-  .team-res-cell-block {
-    min-height: 75px;
-      
-  }
-  
-  .team-head {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+/* Container Styles */
+.team-con {
+    max-width: 1380px;
+    margin: 85% auto 60px auto;
+    padding: 0 30px;
+}
+
+/* Header Styles */
+.team-head {
+    margin: 0;
     line-height: 25px;
     color: #6750A3;
-  }
-.team-head {
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-  
-  
-  .team-mainblock {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    justify-content: space-evenly;
-  }
-  .team-mainblock-ww{
-    
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    justify-content: space-evenly;
-  }
-  .team-head-text {
+
+.team-head-text {
     font-size: 48px;
     font-weight: 900;
     text-align: center;
-    font-family: 'Inter','Inika';
-  }
-  
-  .team-head-text {
+    font-family: 'Inter', 'Inika';
     line-height: 50px;
     width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
-  }
-  .team-sub-head {
+    margin: 0;
+}
+
+.team-sub-head {
     max-width: 700px;
     font-size: 20px;
     line-height: 35px;
     text-align: center;
     font-weight: 700;
-    color:#5F6980;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 100px;
-    margin-left: 0px;
+    color: #5F6980;
     margin: 0 0 70px 0;
     font-family: 'Roboto', sans-serif;
+}
 
-  }
-  
-  .team-con {
-    
-    max-width: 1380px;
-    margin-top: 85vw;
-    margin-right: auto;
-    margin-bottom: 60px;
-    margin-left: auto;
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-   
-  }
-  
-  .mainblock {
+/* Team Member Card Styles */
+.team-res-cell-block {
+    min-height: 75px;
+}
+
+.mainblock {
     text-align: center;
     border: 2px solid #DCDCDC;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
-    padding-right: 25px;
-    padding-bottom: 30px;
-    padding-left: 25px;
+    padding: 30px 25px;
     background-color: #FFFFFF;
-  }
-  
-  .team-mainblock-con {
-    
+}
+
+.team-mainblock-ww,
+.team-mainblock {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.team-mainblock-con {
     width: 280px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-    margin-left: 10px;
-  }
-  
-  .name {
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 5px;
-    margin-left: 0px;
+    margin: 0 10px 25px 10px;
+}
+
+.name {
     font-size: 18px;
     font-weight: 800;
-  }
-  
-  .position {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-  }
-  
-  .feature-text {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    color: rgb(122, 122, 122);
-    line-height: 30px;
-  }
-  
-  .social-icons {
+    margin: 20px 0 5px 0;
+}
+
+.position {
+    margin: 0;
+}
+
+.social-icons {
     width: 150px;
     display: flex;
     justify-content: space-around;
     gap: 15px;
-  }
-  
-  .team-wrapper {
+}
+
+.team-wrapper {
     clip-path: circle(50% at 50% 50%);
     width: 130px;
     height: 130px;
-  }
-  
-  .team-image {
-    max-width: 100%;
-  }
-
-  .Load{
-    cursor:pointer;
 }
 
-.Load:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+.team-image {
+    max-width: 100%;
+}
+
+/* Load More Styles */
+.Load {
+    cursor: pointer;
+}
+
+.Load:after {
     content: "";
     display: block;
-    height: 2px;
-    left: 50%;
     position: relative;
+    height: 2px;
     background: #6750A3;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-    
-  }
-  .Load:hover{
-    font-weight : 600;
-  }
- 
-  .Load:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
+    bottom: 0;
+    left: 50%;
+}
 
-  
+.Load:hover {
+    font-weight: 600;
+}
 
-  
-  
-  @media (max-width: 500px) {
+.Load:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
     .team-head-text {
-      font-size: 24px;
-      line-height: 30px;
+        font-size: 24px;
+        line-height: 30px;
     }
-    
-    .github-icon{
-      width: 30px;
+
+    .github-icon,
+    .linkedin-icon,
+    .gmail-icon {
+        width: 30px;
     }
-    .linkedin-icon{
-      width: 30px;
-    }
-    .gmail-icon{
-      width: 30px;
-    }
+
     .team-sub-head {
-      font-size: 14px;
-      line-height: 20px;
+        font-size: 14px;
+        line-height: 20px;
     }
-  
+
     .team-mainblock-con {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .name {
-      font-size: 14px;
+        font-size: 14px;
     }
-  
+
     .feature-text {
-      line-height: 16px;
+        line-height: 16px;
     }
-  
+
     .social-icons {
-      width: 100%;
-      gap: 5px;
+        width: 100%;
+        gap: 5px;
     }
-  
+
     .team-wrapper {
-      width: 100px;
-      height: 90px;
+        width: 100px;
+        height: 90px;
     }
-  }
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
-
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
-
-body {
-  margin: 0;
-}
-
-.wk-desk-1 {
-  width: 8.333333%;
-}
-
-.wk-desk-2 {
-  width: 16.666667%;
-}
-
+/* Styles for wk-desk-3 */
 .wk-desk-3 {
   width: 20%;
 }
 
-.wk-desk-4 {
-  width: 33.333333%;
-}
-
-.wk-desk-5 {
-  width: 41.666667%;
-}
-
-.wk-desk-6 {
-  width: 50%;
-}
-
-.wk-desk-7 {
-  width: 58.333333%;
-}
-
-.wk-desk-8 {
-  width: 66.666667%;
-}
-
-.wk-desk-9 {
-  width: 75%;
-}
-
-.wk-desk-10 {
-  width: 83.333333%;
-}
-
-.wk-desk-11 {
-  width: 91.666667%;
-}
-
-.wk-desk-12 {
-  width: 100%;
-}
-
+/* Styles for wk-ipadp-3 */
 @media (max-width: 1024px) {
-  .wk-ipadp-1 {
-    width: 8.333333%;
-  }
-
-  .wk-ipadp-2 {
-    width: 16.666667%;
-  }
-
   .wk-ipadp-3 {
     width: 25%;
   }
-
-  .wk-ipadp-4 {
-    width: 33.333333%;
-  }
-
-  .wk-ipadp-5 {
-    width: 41.666667%;
-  }
-
-  .wk-ipadp-6 {
-    width: 50%;
-  }
-
-  .wk-ipadp-7 {
-    width: 58.333333%;
-  }
-
-  .wk-ipadp-8 {
-    width: 66.666667%;
-  }
-
-  .wk-ipadp-9 {
-    width: 75%;
-  }
-
-  .wk-ipadp-10 {
-    width: 83.333333%;
-  }
-
-  .wk-ipadp-11 {
-    width: 91.666667%;
-  }
-
-  .wk-ipadp-12 {
-    width: 100%;
-  }
 }
 
+/* Styles for wk-tab-6 */
 @media (max-width: 768px) {
-  .wk-tab-1 {
-    width: 8.333333%;
-  }
-
-  .wk-tab-2 {
-    width: 16.666667%;
-  }
-
-  .wk-tab-3 {
-    width: 25%;
-  }
-
-  .wk-tab-4 {
-    width: 33.333333%;
-  }
-
-  .wk-tab-5 {
-    width: 41.666667%;
-  }
-
+    .team-con{
+        width:300px;
+    }
   .wk-tab-6 {
     width: 50%;
   }
-
-  .wk-tab-7 {
-    width: 58.333333%;
-  }
-
-  .wk-tab-8 {
-    width: 66.666667%;
-  }
-
-  .wk-tab-9 {
-    width: 75%;
-  }
-
-  .wk-tab-10 {
-    width: 83.333333%;
-  }
-
-  .wk-tab-11 {
-    width: 91.666667%;
-  }
-
-  .wk-tab-12 {
-    width: 100%;
-  }
 }
 
+/* Styles for wk-mobile-12 */
 @media (max-width: 500px) {
-  .team-con{
-    margin-top:500vw;
-  }
-  .wk-mobile-1 {
-    width: 8.333333%;
-  }
-
-  .wk-mobile-2 {
-    width: 16.666667%;
-  }
-
-  .wk-mobile-3 {
-    width: 25%;
-  }
-
-  .wk-mobile-4 {
-    width: 33.333333%;
-  }
-
-  .wk-mobile-5 {
-    width: 41.666667%;
-  }
-
-  .wk-mobile-6 {
-    width: 50%;
-  }
-
-  }.wk-mobile-7 {
-    width: 58.333333%;
-  }
-
-  .wk-mobile-8 {
-    width: 66.666667%;
-  }
-
-  .wk-mobile-9 {
-    width: 75%;
-  
-
-  .wk-mobile-10 {
-    width: 83.333333%;
-  }
-
-  .wk-mobile-11 {
-    width: 91.666667%;
-  }
-
   .wk-mobile-12 {
-    width: 100%;
+    width: 50%;
   }
 }
