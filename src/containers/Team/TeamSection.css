@@ -1,8 +1,4 @@
-* {
-    font-family: Nunito, sans-serif;
-    box-sizing: border-box;
-    
-  }
+
   body{
     background-color: #F6F1FF;
     
@@ -82,7 +78,7 @@
   .team-con {
     
     max-width: 1380px;
-    margin-top: 85%;
+    margin-top: 85vw;
     margin-right: auto;
     margin-bottom: 60px;
     margin-left: auto;
@@ -395,7 +391,7 @@ body {
 
 @media (max-width: 500px) {
   .team-con{
-    margin-top:500%;
+    margin-top:500vw;
   }
   .wk-mobile-1 {
     width: 8.333333%;
