@@ -11,11 +11,11 @@ function Solution() {
     return (
         <div className='Solution' align='center' id = "solutions">
 
-            <h1>
+            <h1 id="sol-head">
                 Our Solutions
             </h1>
 
-            <p>
+            <p className='sol-para'>
                 Your Success, Our Services. Tailored Solution for Every Business Challenge.
                 <br />
                 Discover the Power of Innovation and Excellence. Join Us on the Road to Success!
