@@ -1,5 +1,5 @@
 .div1 {
-    margin-top:70vw;
+    margin-top:0vw;
     background-color: #F6F1FF;
     height: 100%;
     width: 100%;
@@ -191,8 +191,11 @@ a {
 
 
 @media(max-width:700px) {
+    .div3 .text1{
+        margin-top: 0;
+    }
     .div1 {
-        padding-top: 600vw;
+        padding-top: 0;
     }
 
     .div2,
