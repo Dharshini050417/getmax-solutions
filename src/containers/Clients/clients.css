@@ -1,0 +1,240 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    transition: overflow 0.5s;
+    scrollbar-width: thin; 
+    scrollbar-color: transparent transparent; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+    width: 0.15em; /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the thumb (the draggable part) */
+}
+.cli-maincontainer{
+    background-color: #FAF9F6;
+    margin-top: 100px;
+    height:125vw;
+}
+.cli-header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height:15vw;
+    width:100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.cli-head1{
+    position:relative;
+    text-align:center;
+    font-size: 3vw;
+    flex-direction: row;
+    font-style: normal;
+    font-weight:bold;
+    font-family: 'Inter', sans-serif;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #0B63E5 0%, #A8BEDE 92.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.cli-para{
+    max-width:50vw;
+    color:#42526B;
+    padding-bottom: 4vw;
+}
+.cli-para1{
+    font-size: 1vw;
+}
+
+.cli-head{
+    
+    text-align: center;
+        font-size: 1vw;
+        position: relative;
+        width:25%;
+        margin-top: 3vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FAF9F6; /* Set the background color for the fixed header */
+    
+}
+
+
+
+.cli-container{
+    text-align: center;
+    position: relative;
+    background-color: #FAF9F6;
+    width:100%;
+    margin-top:0;
+    padding-top: 0;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+}
+.cli-col{
+    margin-left:auto;
+    margin-right:auto;
+    flex:1;
+    flex-direction:column;
+    padding:0;
+    padding-top: 0;
+    text-align: center;
+    align-items: center;
+}
+
+
+.cli-img {
+    height: 8vw; 
+    width: 6vw; 
+    margin: 0.1vw;
+}
+
+
+
+.cli-head3{
+    text-align: center;
+    color:#42526B;
+    
+}  
+.cli-content1,.cli-content2,.cli-content3,.cli-content4{
+    text-align: center;
+    overflow: hidden; /* Add this line */
+    
+}
+
+.stop-scrolling {
+    overflow: hidden;
+}
+.cli-image{
+    height:15vw;
+    width:12vw;
+    padding:2vw;
+    background-color: #fff; 
+    box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
+    margin:6vw 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.5vw;
+    transition: transform 1s;
+}
+.cli-image:hover {
+    transform: translateZ(-60vw);
+}
+/*@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-100% * 4)); 
+    }
+} 
+*/
+
+@media only screen and (max-width: 768px) {
+    /* Add responsive styles for screens up to 768 pixels wide */
+ 
+    p{
+        font-size: 10px;
+    }
+    .cli-container {
+        padding-top: 20vw;
+        position:relative;
+      flex-direction: column;
+    }
+    .cli-img{
+        height: 1.5cm;
+        width:1.5cm;
+        margin:-30px;
+    }
+   
+    .cli-col {
+      width: 100%; /* Take up the full width on smaller screens */
+    }
+    .cli-image{
+        height:3cm;
+        width:2cm;
+        padding:50px;
+        background-color: #fff; /* Set the background color for the fixed header */
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+        margin:20px 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20vw;
+        
+    }
+ 
+}
+
+@media only screen and (max-width: 768px) {
+
+
+ 
+  .cli-content1,.cli-content2,.cli-content3,.cli-content4{
+      padding-top:3vw;
+      padding-bottom: 0;
+  }
+
+  .cli-head {
+      padding-bottom: 0;
+    position:relative;
+    width: 100%; /* Use full width on smaller screens */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+    /* Adjust padding for smaller screens */
+    box-sizing: border-box; 
+    z-index: 0;/* Include padding and border in the total width */
+  }
+  h3{
+    font-size: 20px;
+  }
+
+
+  .cli-col2,.cli-col3,.cli-col4{
+      margin-bottom:20px;
+  }
+ 
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .cli-container {
+    flex-direction: column; 
+  }
+
+  .cli-col {
+    width: 100%; 
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  .cli-header {
+    margin-top:4.5vw;
+    height: auto;
+  }
+
+  
+
+  h1 {
+    font-size: 1.5rem; 
+  }
+.cli-maincontainer{
+height: 100px;
+  }
+}
+

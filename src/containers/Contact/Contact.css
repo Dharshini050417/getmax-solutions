@@ -1,0 +1,238 @@
+.div1 {
+    margin-top:0vw;
+    background-color: #F6F1FF;
+    height: 100%;
+    width: 100%;
+    font-family: "Inter-Medium", Helvetica;
+    padding-bottom: 5%;
+}
+.div2 {
+    display: flex;
+}
+.div3 {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 40%;
+    color: #263238;
+}
+.div4 {
+    background-color: #222938;
+    margin-top: 5%;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.image {
+    width: 7vb;
+    height: 100%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+#image1st {
+    margin-left: 0%;
+}
+
+.div8 {
+    display: flex;
+    width: 150%;
+    height: 10%;
+}
+
+.div9 {
+    display: flex;
+    width: 100%;
+}
+
+.imgtxt {
+    margin-left: 8%;
+    margin-top: 2%;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#text1st {
+    margin-left: 0%;
+}
+
+form {
+    color: #FFF;
+
+}
+
+form h3 {
+    margin-top: 10%;
+    font-size: 26px;
+}
+
+form p {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+form input {
+    margin-left: 15%;
+    width: 70%;
+    height: 4vh;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.message {
+    height: 6vh;
+}
+
+.msg {
+    margin-top: 5%;
+}
+
+.submit {
+    margin-top: 10%;
+    width: 70%;
+    height: 5vh;
+    margin-left: 15%;
+    border-radius: 5px;
+    background-color: #6020BD;
+    margin-bottom: 15%;
+}
+
+.div3 p {
+    width: 75%;
+    font-size: 18px;
+}
+
+.div3 .text1 {
+    margin-top: 10%;
+}
+
+.label {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to left, rgb(129.4, 102.93, 187.17) 65%, rgb(11, 99, 229));
+    background-clip: text;
+    color: transparent;
+}
+
+.div5 {
+    margin-top: 5%;
+    display: flex;
+}
+
+.div6 {
+    margin-left: 10%;
+    width: 40%;
+}
+
+.div6 h1 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to left, rgb(129.4, 102.93, 187.17) 65%, rgb(11, 99, 229));
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+
+.text2 {
+    color: #263238;
+}
+
+.mail {
+    border-radius: 30px;
+    height: 6vh;
+    width: 70%;
+    padding-left: 10px;
+    background-color: transparent;
+    position: relative;
+}
+
+.div7 {
+    width: 40%;
+    color: #263238;
+}
+
+.cr {
+    margin-top: 5%;
+    color: #6020bd;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: #263238;
+}
+
+.div7 p {
+    line-height: 5vh;
+}
+
+.sub1 {
+    background-color: transparent;
+    padding: 0%;
+    border-radius: 50%;
+    width: 5vb;
+    height: 5vb;
+    border: none;
+    position: relative;
+    top: 1vh;
+    left: -6vb;
+    background-color: #6020BD;
+}
+
+.arrow {
+    width: 5vb;
+    border-radius: 50%;
+}
+
+.smicon {
+    margin: 3%;
+}
+
+
+
+@media(max-width:700px) {
+    .div3 .text1{
+        margin-top: 0;
+    }
+    .div1 {
+        padding-top: 0;
+    }
+
+    .div2,
+    .div5 {
+        display: block;
+        align-content: center;
+
+    }
+
+    .div3,
+    .div4,
+    .div6,
+    .div7 {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    form {
+        padding-top: 0.5%;
+    }
+
+    .label {
+        margin-top: 0;
+    }
+
+    .div8 {
+        width: 100%;
+    }
+
+    .sub1 {
+        position: relative;
+        left: -6vb;
+        top: 1vh;
+    }
+
+    .imgtxt {
+        margin: 2%;
+    }
+
+}
