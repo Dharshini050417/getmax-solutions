@@ -192,7 +192,7 @@ a {
 
 @media(max-width:700px) {
     .div1 {
-        padding-top: 600%;
+        padding-top: 600vw;
     }
 
     .div2,
