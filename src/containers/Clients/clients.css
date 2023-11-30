@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF9F6;
+    
     margin: 0;
     padding: 0;
     transition: overflow 0.5s;
@@ -16,8 +16,9 @@ body::-webkit-scrollbar-thumb {
     background-color: transparent; /* Set the color of the thumb (the draggable part) */
 }
 .cli-maincontainer{
+    background-color: #FAF9F6;
     margin-top: 100px;
-    height:100px;
+    height:125vw;
 }
 .cli-header{
     margin-left: auto;
@@ -115,7 +116,6 @@ body::-webkit-scrollbar-thumb {
 .cli-content1,.cli-content2,.cli-content3,.cli-content4{
     text-align: center;
     overflow: hidden; /* Add this line */
-    animation: scroll 20s linear infinite;
     
 }
 
@@ -171,7 +171,6 @@ body::-webkit-scrollbar-thumb {
         height:3cm;
         width:2cm;
         padding:50px;
-        z-index: 1000;
         background-color: #fff; /* Set the background color for the fixed header */
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
         margin:20px 0;
@@ -186,9 +185,7 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 768px) {
 
 
-  #cli-image1{
-      padding-top:0;
-  }
+ 
   .cli-content1,.cli-content2,.cli-content3,.cli-content4{
       padding-top:3vw;
       padding-bottom: 0;
